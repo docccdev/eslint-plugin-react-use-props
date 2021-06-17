@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-react-props",
+  "name": "eslint-plugin-react-use-props",
   "version": "0.0.1",
   "description": "eslint plugin for enforce that all components that require or deprecate props",
   "main": "dist/index.js",
@@ -35,6 +35,6 @@
     "babel-plugin-add-module-exports": "1.0.4"
   },
   "dependencies": {
-    "jsx-ast-utils": "3.2.0"
+    "jsx-ast-utils": "^3.2.0"
   }
 }
