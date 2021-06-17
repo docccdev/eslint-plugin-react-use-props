@@ -1,4 +1,4 @@
-export const getTagsToCheck = (options) => {
+const getTagsToCheck = (options) => {
     const types = new Map();
 
     options.forEach((option) => {
@@ -7,3 +7,5 @@ export const getTagsToCheck = (options) => {
 
     return types;
 };
+
+export default { getTagsToCheck };
