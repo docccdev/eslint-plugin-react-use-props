@@ -1,12 +1,12 @@
 import { elementType, hasProp } from 'jsx-ast-utils';
-import { getTagsToCheck } from '../utils';
+import { getTagsToCheck, schema } from '../utils';
 
 export default {
     meta: {
         docs: {
             description: 'Check required component props',
         },
-        schema: [],
+        schema: schema,
     },
     create(context) {
         const tagsToCheck = getTagsToCheck(context.options || []);
@@ -23,7 +23,7 @@ export default {
                     if (hasProp(node.attributes, propName)) {
                         context.report({
                             node,
-                            message: msg || `There is an deprecated ${propName} prop for ${tagName} element`,
+                            message: msg || `There is an deprecated prop "${propName}" for "${tagName}" element`,
                         });
                     }
                 });
