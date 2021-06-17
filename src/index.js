@@ -1,5 +1,5 @@
-import ruleRequire from './require';
-import ruleDeprecate from './deprecate';
+import ruleRequire from './rules/require';
+import ruleDeprecate from './rules/deprecate';
 
 export default {
     rules: {
