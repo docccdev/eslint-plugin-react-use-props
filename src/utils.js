@@ -1,9 +1,4 @@
-// [
-//     { type: 'Image', props: ['width', 'height'] },
-//     { type: 'Picture.Item', props: ['width', 'height'] }
-// ]
-
-const getTagsToCheck = (options) => {
+export const getTagsToCheck = (options) => {
     const types = new Map();
 
     options.forEach((option) => {
@@ -12,6 +7,3 @@ const getTagsToCheck = (options) => {
 
     return types;
 };
-
-
-module.exports = { getTagsToCheck }

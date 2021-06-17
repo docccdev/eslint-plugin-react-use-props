@@ -1,7 +1,7 @@
-const { elementType, hasProp } = require('jsx-ast-utils');
-const { getTagsToCheck } = require('../utils');
+import { elementType, hasProp } from 'jsx-ast-utils';
+import { getTagsToCheck } from '../utils';
 
-module.exports = {
+export default {
     meta: {
         docs: {
             description: 'Check required component props',

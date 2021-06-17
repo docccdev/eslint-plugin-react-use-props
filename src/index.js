@@ -1,6 +1,9 @@
-module.exports = {
+import ruleRequire from './require';
+import ruleDeprecate from './deprecate';
+
+export default {
     rules: {
-        require: require('./rules/require'),
-        deprecate: require('./rules/deprecate'),
+        require: ruleRequire,
+        deprecate: ruleDeprecate,
     },
 };
