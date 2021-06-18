@@ -4,7 +4,7 @@
   "description": "eslint plugin for enforce that all components that require or deprecate props",
   "main": "dist/index.js",
   "scripts": {
-    "test": "npm run build && mocha test --recursive",
+    "test": "npm run build && mocha tests --recursive",
     "build": "babel src --out-dir dist",
     "prepublishOnly": "npm run build"
   },

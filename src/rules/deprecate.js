@@ -4,7 +4,7 @@ import { getTagsToCheck, schema } from '../utils';
 export default {
     meta: {
         docs: {
-            description: 'Check required component props',
+            description: 'Check deprecated component props',
         },
         schema: schema,
     },
