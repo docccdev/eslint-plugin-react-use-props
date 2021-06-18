@@ -1,6 +1,6 @@
 # eslint-plugin-react-use-props
 
-ESLint plugin to enforce that all components that require or deprecate props
+ESLint plugin to **require** or **deprecate** props that components use
 
 ## Installation
 
@@ -40,10 +40,10 @@ Then configure the rules you want to use under the rules section.
 {
   "rules": {
     "react-use-props/require": [2,
-      { element: "img", props: ["width", "height"] }
+      { "element": "img", "props": ["width", "height"] }
     ],
     "react-use-props/deprecate": [2,
-      { element: "div", props: ["align"] }
+      { "element": "div", "props": ["align"] }
     ]
   }
 }
@@ -51,5 +51,5 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-- [eslint-plugin-react-use-props/require](https://github.com/docccdev/eslint-plugin-react-use-props): Check required component props
-- [eslint-plugin-react-use-props/deprecate](https://github.com/docccdev/eslint-plugin-react-use-props): Check deprecated component props
+- [eslint-plugin-react-use-props/require](https://github.com/docccdev/eslint-plugin-react-use-props/blob/main/docs/rules/require.md): Check required component props
+- [eslint-plugin-react-use-props/deprecate](https://github.com/docccdev/eslint-plugin-react-use-props/blob/main/docs/rules/deprecate.md): Check deprecated component props
