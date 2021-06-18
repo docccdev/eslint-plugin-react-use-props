@@ -1,5 +1,8 @@
 # eslint-plugin-react-use-props
 
+[![](https://img.shields.io/npm/v/eslint-plugin-react-use-props.svg)](https://www.npmjs.com/package/eslint-plugin-react-use-props)
+[![](https://img.shields.io/badge/page-CHANGELOG-42b983)](https://github.com/docccdev/eslint-plugin-react-use-props/blob/main/CHANGELOG.md)
+
 ESLint plugin to **require** or **deprecate** props that components use
 
 ## Installation
