@@ -52,6 +52,21 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
+## Recomended rules
+
+Force required size props to prevent [Layout Shift](https://web.dev/cls) from occurring.
+
+```json
+{
+  "rules": {
+    "react-use-props/require": [2,
+      { "element": "img", "props": ["width", "height"] },
+      { "element": "iframe", "props": ["width", "height"] }
+    ]
+  }
+}
+```
+
 ## Supported Rules
 
 - [eslint-plugin-react-use-props/require](https://github.com/docccdev/eslint-plugin-react-use-props/blob/main/docs/rules/require.md): Check required component props
