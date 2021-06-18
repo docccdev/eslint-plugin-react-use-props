@@ -2,7 +2,7 @@
 
 ## Rule Details
 
-This rule check required props that components use
+This rule check required props that components use. Maybe really handy for prevent [Layout Shift](https://web.dev/cls) from occurring.
 
 ### Example:
 Let's consider we have this configuration in `.eslintrc`:
