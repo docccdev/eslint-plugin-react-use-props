@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-react-use-props",
   "version": "1.0.0",
-  "description": "eslint plugin for enforce that all components that require or deprecate props",
+  "description": "ESLint plugin to require or deprecate props that components use",
   "main": "dist/index.js",
   "scripts": {
     "test": "npm run build && mocha tests --recursive",
